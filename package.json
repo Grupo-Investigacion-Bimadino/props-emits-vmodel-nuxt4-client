@@ -1,0 +1,26 @@
+{
+  "name": "music-app-client",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --port 3000",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "@pinia/nuxt": "^0.11.0",
+    "pinia": "^3.0.2",
+    "pinia-plugin-persistedstate": "^4.2.0",
+    "nuxt": "^4.0.0",
+    "vue": "latest",
+    "vue-router": "latest",
+    "vuetify": "^3.8.0"
+  },
+  "devDependencies": {
+    "vite-plugin-vuetify": "^2.0.4",
+    "typescript": "^5.5.0"
+  }
+}
