@@ -331,7 +331,7 @@ watch(() => playerStore.currentTrack, () => {
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1) !important;
   border: 1px solid rgba(255, 255, 255, 0.5) !important;
   z-index: 200;
-  padding: 0 !important;
+ /* padding: 0 !important;*/
 }
 
 .player-mini-cover {
@@ -363,7 +363,7 @@ watch(() => playerStore.currentTrack, () => {
 
 .fullscreen-controls-bar {
   background: white;
-  padding: 24px 0;
+  /*padding: 24px 0;*/
   border-top: 1px solid #e2e8f0;
 }
 

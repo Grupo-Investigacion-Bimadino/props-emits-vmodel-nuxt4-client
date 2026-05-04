@@ -127,7 +127,7 @@ async function deleteTrack(id: string) {
 </script>
 
 <style scoped>
-.hero { padding: 16px 0 8px; }
+/*.hero { padding: 16px 0 8px; }*/
 .hero-icon {
   animation: float 6s ease-in-out infinite;
   filter: drop-shadow(0 20px 30px rgba(255, 77, 141, 0.2));

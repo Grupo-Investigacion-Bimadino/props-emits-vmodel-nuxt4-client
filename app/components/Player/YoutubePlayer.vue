@@ -41,7 +41,7 @@ const embedUrl = computed(() => {
     modestbranding: '1',
     rel: '0',
     playsinline: '1',
-    origin: window.location.origin
+    origin: typeof window !== 'undefined' ? window.location.origin : ''
   })
   return `https://www.youtube.com/embed/${props.youtubeId}?${params.toString()}`
 })
